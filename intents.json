@@ -1,0 +1,34 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "buenos días", "buenas tardes", "buenas noches", "hola, ¿qué tal?"],
+            "responses": ["¡hola! ¿cómo estás?", "¡buenos días! ¿en qué puedo ayudarte?", "¡buenas tardes! ¿qué puedo hacer por ti?", "¡buenas noches! ¿necesitas algo?", "¡hola! ¿qué tal tu día?"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["adiós", "hasta luego", "nos vemos", "cuídate", "chao"],
+            "responses": ["¡adiós! que tengas un buen día.", "¡hasta luego! cuídate.", "nos vemos pronto.", "¡cuídate mucho!", "chao, ¡que estés bien!"]
+        },
+        {
+            "tag": "gracias",
+            "patterns": ["gracias", "muchas gracias", "te lo agradezco", "gracias por tu ayuda", "muy amable"],
+            "responses": ["¡de nada!", "¡para eso estoy!", "me alegra haber sido de ayuda.", "¡no hay de qué!", "¡es un placer ayudarte!"]
+        },
+        {
+            "tag": "informacion_general",
+            "patterns": ["¿qué puedes hacer?", "¿cuál es tu función?", "¿cómo puedes ayudarme?", "¿qué servicios ofreces?"],
+            "responses": ["puedo responder a tus preguntas, ayudarte con tareas diarias, ofrecerte información y mucho más.", "estoy aquí para ayudarte a encontrar información, responder preguntas y facilitarte la vida.", "puedo asistirte en muchas tareas, solo pregúntame lo que necesites.", "ofrezco una amplia gama de servicios desde responder preguntas hasta darte recomendaciones."]
+        },
+        {
+            "tag": "nombre",
+            "patterns": ["¿cómo te llamas?", "¿cuál es tu nombre?", "¿quién eres?", "¿tienes nombre?"],
+            "responses": ["me llamo copilot.", "soy copilot, tu asistente virtual.", "puedes llamarme copilot.", "soy copilot, creado para asistirte."]
+        },
+        {
+            "tag": "clima",
+            "patterns": ["¿cómo está el clima?", "¿qué tiempo hace?", "¿cuál es el pronóstico del clima?", "¿cómo estará el clima hoy?"],
+            "responses": ["no puedo verificar el clima directamente, pero puedes consultar una aplicación meteorológica para información precisa.", "para saber el clima, te recomendaría revisar una página meteorológica confiable.", "no tengo acceso directo a datos climáticos, pero seguro una aplicación del clima te puede ayudar.", "el pronóstico del clima lo puedes verificar en tu aplicación de preferencia."]
+        }
+    ]
+}
